@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  background: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #ff4400;
+}
+
+/* Product Details */
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.details img {
+  width: 300px;
+}
+
+.details div {
+  max-width: 500px;
+}
+
+.price {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Auth Page */
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auth-container .btn {
+  width: 100%;
+}
+
+.auth-container p {
+  color: blue;
+  cursor: pointer;
+}
+
+.auth-container p:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #222;
+  color: white;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar div {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .btn {
+  background: #ff6600;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.navbar .btn:hover {
+  background: #ff4400;
+}
+
+.logout-btn {
+  background: red;
+  padding: 8px 12px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background: darkred;
+}
